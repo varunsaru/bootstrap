@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Excercises</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/home/ukistu04/Documents/uki3/Bootstrap/boot/css/bootstrap.css"
+  href="/home/ukistu04/Documents/uki3/Bootstrap/boot/css/bootstrap.min.css"
+  href="/home/ukistu04/Documents/uki3/Bootstrap/boot/css/bootstrap-theme.css"
+  href="/home/ukistu04/Documents/uki3/Bootstrap/boot/css/bootstrap-theme.min.css"
+  href="/home/ukistu04/Documents/uki3/Bootstrap/boot/css/bootstrap.css.map"
+  href="/home/ukistu04/Documents/uki3/Bootstrap/boot/css/bootstrap.min.css.map"
+  href="/home/ukistu04/Documents/uki3/Bootstrap/boot/css/bootstrap-theme.min.css.map"
+  href="/home/ukistu04/Documents/uki3/Bootstrap/boot/css/bootstrap-theme.css.map">
+  <script src="/home/ukistu04/Documents/uki3/Bootstrap/boot/js/bootstrap.js"></script>
+  <script src="/home/ukistu04/Documents/uki3/Bootstrap/boot/js/bootstrap.min.js"></script>
+    <script src="/home/ukistu04/Documents/uki3/Bootstrap/boot/js/npm.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+<div class="container">
+  <div class="dropdown">
+    <button class="btn-lg btn-danger dropdown-toggle"type="button"data-toggle="dropdown"> Menu
+    <span class="caret" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li id="red"><a href="#">Home</a></li>
+    <li id="red"><a href="#">Bootstrap</a></li>
+    <li id="red"><a href="#">JQuery</a></li>
+    <li id="red"><a href="#">JQuery ul</a></li>
+    <li class="divider"></li>
+    <li id="red"><a href="#">PHP</a></li>
+    </ul>
+  </div></div>
+  <br><br><br><br><br><br><br><br><br><br>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-menu-hamburger" ></span> Menu <span class="glyphicon glyphicon-plus" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></a>
+          <ul class="dropdown-menu stylus-drp-li">
+            <li><a tabindex="-1" href="#">html</a></li>
+            <li><a tabindex="-1" href="#">css</a></li>
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">js <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">part-1</a></li>
+                <li><a tabindex="-1" href="#">part-2</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">More <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Back-End</a></li>
+                    <li><a href="#">Database</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+        <script>
+        $(document).ready(function(){
+          $('.dropdown-submenu a.test').on("click", function(e){
+            $(this).next('ul').toggle();
+            e.stopPropagation();
+            e.preventDefault();
+          });
+        });
+        </script></li>
+      </ul>
+
+    </div>
+  </nav>
+  <br><br><br><br><br><br>
+  <form class="navbar-form navbar-left">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search">
+
+          <div class="input-group-btn">
+            <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+              <i class="caret"></i>
+            </button>
+            <button class="btn btn-default" type="submit">
+              <i class="glyphicon glyphicon-search"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li> <a href="#">Accessories</a> </li>
+              <li> <a href="#">Legs</a> </li>
+              <li> <a href="#">Troso</a> </li>
+              <li> <a href="#">Feet</a> </li>
+             <li> <a href="#">Watchs</a> </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+</form>
+
+  <br><br><br><br><br>
+<nav class="navbar navbar-inverse">
+  <div class="container-flurd">
+    <div class="navbar-header">
+      <a class="navbar-brand"href="#">Home</a>
+    </div>
+    <ul class ="nav navbar-nav"><th></th>
+      <li class="dropdown"><a class="dropdown-toggle"data-toggle="dropdown"href="#">Service<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Web design</a></li>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">Development</a></li>
+        </ul>
+
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<br><br><br><br><br>
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Num</th>
+        <th>Name</th>
+        <th>Quanlity</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="info">
+        <td>1</td>
+        <td>Wheat</td>
+        <td>Good</td>
+        <td>200Bags</td>
+      </tr>
+      <tr class="danger">
+        <td>2</td>
+        <td>Rice</td>
+        <td>Best</td>
+        <td>200 Bags</td>
+      </tr>
+      <tr class="Warning">
+        <td>3</td>
+        <td>sugar</td>
+        <td>Good</td>
+        <td>200 Bags</td>
+      </tr>
+      <tr class="active">
+        <td>3</td>
+        <td>sugar</td>
+        <td>Good</td>
+        <td>260 Bags</td>
+      </tr>
+      <tr class="success">
+        <td>3</td>
+        <td>sugar</td>
+        <td>Average</td>
+        <td>300 Bags</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
